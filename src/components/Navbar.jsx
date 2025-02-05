@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
+    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-800/80">
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
@@ -19,7 +19,7 @@ const Navbar = () => {
             <span className="text-4xl font-bold bg-gradient-to-r from-violet-500 to-blue-800 text-transparent
              bg-clip-text  tracking-tight">FusionVR</span>
           </div>
-          <ul className="hidden lg:flex ml-14 space-x-12 ">
+          <ul className="hidden lg:flex ml-14  space-x-12 ">
             {navItems.map((item, index) => (
               <li key={index}>
                 <a href={item.href}>{item.label}</a>
@@ -52,13 +52,13 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <div className="flex space-x-6">
+            <div className="flex space-x-6 ">
               <a href="#" className="py-2 px-3 border rounded-md">
                 Sign In
               </a>
               <a
                 href="#"
-                className="py-2 px-3 rounded-md bg-gradient-to-r from-violet-500 to-blue-800"
+                className="py-2 px-3 rounded-md bg-gradient-to-r from-violet-500 to-blue-800 "
               >
                 Create an account
               </a>
